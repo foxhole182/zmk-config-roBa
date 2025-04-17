@@ -96,10 +96,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                                 &kp ESCAPE  &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans
-&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans            &kp INSERT  &kp HOME    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT  &kp PAGE_UP      &trans          &kp PAGE_DOWN    &trans   &kp LEFT_ALT      &trans      &trans      &kp PRINTSCREEN  &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&trans          &trans           &trans          &trans           &trans   &trans            &trans      &trans                                                        &trans
+&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                                      &kp ESCAPE  &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans
+&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans            &kp INSERT       &kp HOME    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&kp LEFT_SHIFT  &kp PAGE_UP      &trans          &kp PAGE_DOWN    &trans   &kp LEFT_ALT      &kp PRINTSCREEN  &trans      &kp PAGE_UP      &kp PAGE_UP     &kp PAGE_DOWN    &trans
+&trans          &trans           &trans          &trans           &trans   &trans            &trans           &trans                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
