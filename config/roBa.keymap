@@ -78,18 +78,18 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                             &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans            &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &kp LEFT_ALT      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans            &trans   &trans                          &kp F12
+&trans  &trans  &trans  &trans  &trans                            &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_ALT      &trans  &kp F11  &kp F12  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans                            &trans
             >;
         };
 
         Symbol {
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp EQUAL         &kp AT_SIGN
-&kp SLASH        &trans             &trans    &kp COLON   &kp AMPERSAND  &trans      &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS          &kp ASTRK         &kp PIPE
-&trans           &trans             &trans    &trans      &kp INT_YEN    &trans      &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN  &kp UNDERSCORE
+&trans           &trans             &trans    &kp COLON   &kp AMPERSAND  &trans      &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS          &kp ASTRK         &kp PIPE
+&trans           &trans             &trans    &trans      &trans         &trans      &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN  &kp UNDERSCORE
 &trans           &trans             &trans    &trans      &trans         &trans      &trans     &trans                                                                           &kp QUESTION
             >;
         };
