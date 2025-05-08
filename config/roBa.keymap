@@ -68,9 +68,9 @@
         default_layer {
             bindings = <
 &kp Q              &kp W         &kp E       &kp R                        &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P
-&mt TAB A          &kp S         &kp D       &kp F                        &kp G        &lt 6 HOME                      &kp EQUAL         &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt TAB A          &kp S         &kp D       &kp F                        &kp G        &lt 6 HOME                      &kp MINUS         &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z   &kp X         &kp C       &kp V                        &kp B        &kp RIGHT_ALT                   &kp SINGLE_QUOTE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp RIGHT_CONTROL  &kp LEFT_WIN  &kp ESCAPE  &lt_to_layer_0 7 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 7 LA(GRAVE)      &lt 1 BACKSPACE   &lt 3 ENTER                             &kp DEL
+&kp RIGHT_CONTROL  &kp LEFT_WIN  &kp ESCAPE  &lt_to_layer_0 7 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 7 LC(SPACE)      &lt 1 BACKSPACE   &lt 3 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -78,16 +78,16 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                   &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans            &trans         &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
-&trans  &trans  &trans  &trans  &trans  &kp LEFT_ALT      &kp RIGHT_ALT  &kp F11  &kp F12  &kp F13  &kp F14  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans         &trans                              &trans
+&trans  &trans  &trans  &trans  &trans                      &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F11  &kp F12  &kp F13  &kp F14  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
         Symbol {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR            &kp PERCENT                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &mt MINUS EQUAL   &kp PIPE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR            &kp PERCENT                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp EQUAL         &mt PIPE TILDE
 &trans           &trans             &trans    &kp COLON             &kp AMPERSAND  &trans      &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS          &kp ASTRK         &kp AT_SIGN
 &trans           &trans             &trans    &kp NON_US_BACKSLASH  &trans         &trans      &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN  &kp UNDERSCORE
 &trans           &trans             &trans    &trans                &trans         &trans      &trans     &trans                                                                           &kp QUESTION
