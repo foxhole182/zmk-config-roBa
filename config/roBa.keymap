@@ -96,7 +96,7 @@
 
         ARROW {
             bindings = <
-&trans            &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                      &kp LC(TAB)            &kp LC(W)       &kp UP_ARROW    &kp LC(T)        &kp LC(LS(TAB))
+&trans            &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                      &kp LC(LS(TAB))        &kp LC(W)       &kp UP_ARROW    &kp LC(T)        &kp LC(TAB)
 &trans            &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &mt LC(LS(HOME)) HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt LC(LS(END)) END
 &trans            &kp PAGE_UP      &trans          &kp PAGE_DOWN    &trans  &trans      &trans  &trans                 &kp PAGE_UP     &kp PAGE_DOWN   &kp PAGE_DOWN    &trans
 &kp LEFT_CONTROL  &trans           &trans          &trans           &trans  &trans      &trans  &trans                                                                  &kp DELETE
