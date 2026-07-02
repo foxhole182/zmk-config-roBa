@@ -1,6 +1,7 @@
 #include "roBa.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
+#include <dt-bindings/zmk/input.h>
 
 &default_transform {
     col-offset = <6>;
@@ -71,8 +72,21 @@
     };
 };
 
+/ {
+    zip_x_scaler: zip_x_scaler {
+        compatible = "zmk,input-processor-scaler";
+        type = <INPUT_EV_REL>;
+        codes = <INPUT_REL_X>;
+        multiplier = <6>;
+        divisor = <5>;
+    };
+};
+
 &trackball_listener {
-    input-processors = <&zip_temp_layer 4 1000>;
+    input-processors = <
+        &zip_x_scaler
+        &zip_temp_layer 4 1000
+    >;
 };
 
 
