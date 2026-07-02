@@ -73,7 +73,8 @@
 
 &trackball_listener {
     input-processors = <
-        &zip_x_scaler 6 5
+        &zip_x_scaler 13 10
+        &zip_y_scaler 6 5
         &zip_temp_layer 4 1000
     >;
 };
