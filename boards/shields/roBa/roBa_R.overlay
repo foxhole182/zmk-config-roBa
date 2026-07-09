@@ -74,7 +74,7 @@
 &trackball_listener {
     input-processors = <
         &zip_xy_scaler 6 5
-        &zip_temp_layer 4 1000
+        &zip_temp_layer 4 900
     >;
 };
 
